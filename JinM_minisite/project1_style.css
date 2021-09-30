@@ -1,0 +1,269 @@
+body {
+  /* border: 3px dotted black; */
+  margin: 10px;
+  max-resolution: auto;
+  font-family: Gotham, Helvetica Neue, Helvetica, Arial, " sans-serif";
+  background-color: skyblue;
+  z-index: auto;
+  background-image: url("images/background/softrain.gif"),url("images/background/starsClouds.jpg");
+  background-repeat: repeat;
+
+}
+@font-face {
+    font-family: Radish;
+    src: url("fonts/radish/Radish-Personal.otf");
+
+}
+
+@font-face {
+  font-family: AutumnInNovember
+  src: url("fonts/autumn-in-november/Autumn In November.ttf");
+}
+
+@font-face {
+  font-size: TooFreakinCute
+  src: url("fonts/too-freakin-cute-demo/Too Freakin Cute Demo.ttf");
+}
+
+.Michelle{
+  font-family: Radish;
+  font-size: 50px;
+color: #F6C6EA;
+  text-shadow: 5px 5px black;
+}
+
+
+
+.AboutMe{
+  font-family: Radish;
+  font-size: 30px;
+  color: pink;
+  text-shadow: 2px 2px black;
+  padding-bottom: 50px;
+
+
+}
+
+.aboutinformation{
+
+  width:350px;
+   padding-top:75px;
+   boarder: 1px solid none;
+   border-style:solid;
+   border-color: none;
+   border-width: 0px;
+   padding-left:3px;
+   padding-bottom:10px;
+  padding-right: 11px;
+  margin: auto;
+  font-family: TooFreakinCute;
+  font-size: 17px;
+  text-align: center;
+  color: #CE97B0;
+  text-shadow: 1px 1px #435560;
+}
+
+.cloud{
+background-image: url("images/background/cloud1.png");
+background-position: center;
+background-repeat: no-repeat;
+margin: 5%;
+position: relative;
+-webkit-filter: drop-shadow(7px 7px 7px #A2B29F);
+      filter: drop-shadow(7px 7px 7px #046582);
+
+/* padding-top: 150px; */
+/* padding-bottom: 300px; */
+/* padding-right: 11px; */
+/* width: 60%; */
+/* image-orientation: centered; */
+/* text-align: center; */
+/* display: block; */
+/* margin-left: auto; */
+/* margin-right: auto; */
+
+
+}
+.ClickHere{
+  text-align: center;
+  image-orientation: centered;
+  font-family: sans-serif;
+  -webkit-filter: drop-shadow(7px 7px 7px #A2B29F);
+        filter: drop-shadow(7px 7px 7px #A2B29F);
+}
+
+.TableofContent{
+  font-family: Radish;
+  font-size: 50px;
+  color: #F6C6EA;
+  text-shadow: 7px 7px #5E454B;
+
+}
+
+a.link{
+  color: pink;
+  background-color: transparent;
+
+  text-size: 20px;
+
+}
+a.visited{
+  color: red;
+
+}
+.Sketches{
+  font-family: Radish;
+  text-align: center;
+  font-size: 25px;
+  color: #FFABE1;
+  text-shadow: 2px 2px #383E56;
+  text-decoration: underline;
+}
+
+.sidenav {
+
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  font-family: radish;
+  position: fixed;
+  z-index: 5;
+  top: 600px;
+  left: 150px;
+  background: #949CDF;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #E4A3D4;
+  text-shadow: 1px 1px  #5D5B6A;
+
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #FEB377;
+}
+
+.nekoHead{
+  webkit-filter: drop-shadow(3px 3px 3px #FFD3B6);
+        filter: drop-shadow(5px 5px 5px #FFD3B6);
+
+}
+
+.Paintings{
+  font-family: Radish;
+  text-align: center;
+  font-size: 25px;
+  color: #FFABE1;
+  text-shadow: 2px 2px #383E56;
+
+}
+
+.nekoCommission{
+  webkit-filter: drop-shadow(3px 3px 3px #FFD3B6);
+        filter: drop-shadow(5px 5px 5px #FFD3B6);
+}
+
+.Emotes{
+  font-family: Radish;
+  text-align: center;
+  font-size: 25px;
+  color: #FFABE1;
+  text-shadow: 2px 2px #383E56;
+}
+
+.frogEmote{
+  webkit-filter: drop-shadow(3px 3px 3px #A7E9AF);
+        filter: drop-shadow(5px 5px 5px #A7E9AF);
+}
+
+.SketchTitle{
+  font-family: Radish;
+  font-size: 50px;
+  color: #F6C6EA;
+  text-shadow: 7px 7px #5E454B;
+
+}
+
+
+
+.naviation{
+  image-orientation: centered;
+  text-align: center;
+  align-items: center;
+}
+
+
+img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+/* .michelle-picture{
+  align-items: center;
+  align-content: center;
+  image-orientation: center; */
+  /* margin: auto; */
+  /* padding-left: 100px; */
+  /* padding-right: 100px; */
+/* } */
+
+nav{
+  padding-top: 100px;
+  padding bottom: 100px;
+  align-items:center;
+  text-align: center;
+}
+
+main {
+  /* border: 10px solid black; */
+  width: 500px;
+  margin: 20px;
+  padding: 10px;
+}
+
+h1, p {
+  /* border: 3px solid black; */
+  padding: 10px;
+  font-size:
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+
+
+h2 {
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+h3 {
+  margin: auto;
+  text-align: auto;
+}
+
+ul {
+  margin: auto;
+  text-align: justify;
+  list-style-type: circle;
+}
+
+p {
+  margin: 0;
+  padding-left: 15px;
+}
